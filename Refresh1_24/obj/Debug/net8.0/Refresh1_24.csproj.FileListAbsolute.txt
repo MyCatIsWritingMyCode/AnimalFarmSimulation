@@ -1,0 +1,4 @@
+C:\Users\User\source\repos\Refresh1_24\Refresh1_24\obj\Debug\net8.0\Refresh1_24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Refresh1_24\Refresh1_24\obj\Debug\net8.0\Refresh1_24.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Refresh1_24\Refresh1_24\obj\Debug\net8.0\Refresh1_24.AssemblyInfo.cs
+C:\Users\User\source\repos\Refresh1_24\Refresh1_24\obj\Debug\net8.0\Refresh1_24.csproj.CoreCompileInputs.cache
