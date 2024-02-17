@@ -1,20 +1,15 @@
 ﻿using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
+using Refresh1_24.Data;
 using Refresh1_24.Model;
+using Refresh1_24.Repository;
+using Refresh1_24.Simulation;
 
-List<Cat> cars = new List<Cat>();
-cars.Add(new Cat("Cake", new DateTime(2022, 5, 1)));
 
-Console.WriteLine(cars[0].Name);
-var dbConnection = new SqliteConnection("Data Source=../../../databases/database_farm.db");
-dbConnection.Open();
-var command = dbConnection.CreateCommand();
-command.CommandText =
-@"
-    CREATE TABLE test_a(
-    id INTEGER,
-    name TEXT,
-    PRIMARY KEY(id)
-    );
-";
-var result = command.ExecuteScalar();
+Farm farm = new Farm();
+
+farm.Start();
+
+farm.DisplayInfo();
 

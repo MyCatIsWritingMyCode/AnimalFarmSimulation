@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refresh1_24", "Refresh1_24\Refresh1_24.csproj", "{8C6F34F4-F82B-4FE7-87A5-2F26F27EF3BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refresh1_24", "Refresh1_24\Refresh1_24.csproj", "{8C6F34F4-F82B-4FE7-87A5-2F26F27EF3BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refresh1_24.Tests", "Refresh1_24.Tests\Refresh1_24.Tests.csproj", "{BEE61CA4-FC0B-4126-A2E9-5935EB9FDF15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8C6F34F4-F82B-4FE7-87A5-2F26F27EF3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C6F34F4-F82B-4FE7-87A5-2F26F27EF3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C6F34F4-F82B-4FE7-87A5-2F26F27EF3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE61CA4-FC0B-4126-A2E9-5935EB9FDF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE61CA4-FC0B-4126-A2E9-5935EB9FDF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE61CA4-FC0B-4126-A2E9-5935EB9FDF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE61CA4-FC0B-4126-A2E9-5935EB9FDF15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,6 +8,6 @@ namespace Refresh1_24.Model
 {
     internal interface IFarmAnimal
     {
-        string[] Products { get; }
+        //ICollection<Product> Products { get; }
     }
 }

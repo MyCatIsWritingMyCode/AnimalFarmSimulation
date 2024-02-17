@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Refresh1_24.Model
 {
-    internal class Dog : Animal
+    internal class Dog
     {
     }
 }

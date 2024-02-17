@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Refresh1_24.Model
 {
-    internal class Sheep : Animal, IFarmAnimal
+    internal class Sheep
     {
-        string[] IFarmAnimal.Products => new string[] { "wool", "meat", "bones" };
+        public Product[]? Products { get; private set; }
     }
 }
